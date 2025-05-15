@@ -94,7 +94,7 @@ def predict(image_path):
         print(f"Confidence: {confidence}", file=sys.stderr)
         
         # Terapkan threshold confidence
-        if confidence < 0.5:
+        if confidence < 0.7:
             predicted_class = "Tidak dikenali"
         else:
             predicted_class = CLASS_NAMES[prediction]
