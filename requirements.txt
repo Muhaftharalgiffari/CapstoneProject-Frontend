@@ -1,0 +1,5 @@
+# requirements.txt
+# Tambahkan dependensi Python yang dibutuhkan oleh predict.py 
+tensorflow
+numpy
+pillow 
